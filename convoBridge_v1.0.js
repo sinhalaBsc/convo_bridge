@@ -1,4 +1,16 @@
+/*
+ This function make bridge between number to it's own text given by developer.
 
+inputBridgeObj() > can input object key/value to number/text or text/number.
+                   this program will devide and save it's own array.
+
+getInvertBridge() > can input any type (number or text) to make bridge and it will
+                    return invert bridge value that you pass to function.
+
+NumberToText()  > return text bridge.
+
+TextToNumber() > return number bridge.
+*/
 
 function Convo(){
   this.number=[];
